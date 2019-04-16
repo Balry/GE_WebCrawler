@@ -1,6 +1,5 @@
 package com.gewebcrawler;
 
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -8,7 +7,6 @@ import org.json.simple.parser.ParseException;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.*;
 
 public class JSONFileReader {
 
@@ -20,12 +18,15 @@ public class JSONFileReader {
             JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("reqDoc/internet_1.json"));
             JSONArray pages = (JSONArray) jsonObject.get("pages");
             //Map pageMap = new HashMap();
+            System.out.println(" hgj ");
 
-            Iterator pagesIter = pages.iterator();
+            System.out.println(pages.get(0).toString());
+
+           /* Iterator pagesIter = pages.iterator();
             while(pagesIter.hasNext())
             {
 
-            }
+            }*/
 
 
 
