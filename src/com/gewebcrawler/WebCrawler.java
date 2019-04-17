@@ -1,8 +1,17 @@
 package com.gewebcrawler;
 
-public class WebCrawler {
+import com.gewebcrawler.json.Internet;
 
-    public static void main(String[] args) {
-	    System.out.println("Init me");
+public class WebCrawler {
+    private static Internet internet;
+
+    public static void main(String[] args){
+        try{
+            GSONFileReader gsonFileReader = new GSONFileReader();
+            internet = gsonFileReader.deseraliazeInternetJSON();
+
+            System.out.println(internet.toString());
+
+        }catch (Exception e){ e.getStackTrace(); }
     }
 }
