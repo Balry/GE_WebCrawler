@@ -1,5 +1,7 @@
 package com.gewebcrawler.json;
 
+import java.util.Arrays;
+
 public class Internet {
 
     private Page[] pages;
@@ -14,6 +16,6 @@ public class Internet {
 
     @Override
     public String toString() {
-        return "ClassPojo [pages = " + pages + "]";
+        return "Internet [pages = " + Arrays.toString(pages) + "]";
     }
 }

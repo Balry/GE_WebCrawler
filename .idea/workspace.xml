@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bbc7124-f17b-4015-b5e2-1551c1dcb252" name="Default Changelist" comment="">
+    <list default="true" id="3bbc7124-f17b-4015-b5e2-1551c1dcb252" name="Default Changelist" comment="GSON wins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gewebcrawler/JSONFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gewebcrawler/JSONFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gewebcrawler/json/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gewebcrawler/json/Page.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,17 +23,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="255">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#142#143#0" expanded="true" />
@@ -47,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/json/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+            <state relative-caret-position="311">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="e#142#143#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -63,20 +74,6 @@
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1992#1993#0" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,11 +106,11 @@
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/Page.java" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/Pages.java" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/json/Pages.java" />
-        <option value="$PROJECT_DIR$/src/com/gewebcrawler/json/Page.java" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/json/GSONFileReader.java" />
         <option value="$PROJECT_DIR$/reqDoc/internet_1.json" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/JSONFileReader.java" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java" />
+        <option value="$PROJECT_DIR$/src/com/gewebcrawler/json/Page.java" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java" />
         <option value="$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java" />
       </list>
@@ -292,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555384687396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GSON wins">
+      <created>1555461113475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555461113475</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -305,7 +309,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -314,7 +318,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.48777777" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48777777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -334,23 +338,12 @@
     <MESSAGE value="JSONParser Reading pages" />
     <MESSAGE value="Setting up initial JSON POJOs" />
     <MESSAGE value="Main-&gt;WebCrawler&#10;GSON test setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main-&gt;WebCrawler&#10;GSON test setup" />
+    <MESSAGE value="GSON wins" />
+    <option name="LAST_COMMIT_MESSAGE" value="GSON wins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gewebcrawler/JSONFileReader.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gewebcrawler/JSONFileReader.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java</url>
           <line>9</line>
@@ -359,12 +352,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java</url>
-          <line>16</line>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Arrays.toString(pages)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -436,29 +434,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/GSONFileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/WebCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/json/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        <state relative-caret-position="311">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
@@ -470,21 +481,6 @@
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gewebcrawler/json/Internet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>

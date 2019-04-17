@@ -1,5 +1,7 @@
 package com.gewebcrawler.json;
 
+import java.util.Arrays;
+
 public class Page {
 
     private String address;
@@ -23,6 +25,6 @@ public class Page {
 
     @Override
     public String toString() {
-        return "Page [address = " + address + ", links = " + links + "]";
+        return "Page [address = " + address + ", links = " + Arrays.toString(links) + "]";
     }
 }
