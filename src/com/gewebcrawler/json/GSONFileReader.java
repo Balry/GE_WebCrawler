@@ -1,4 +1,4 @@
-package com.gewebcrawler;
+package com.gewebcrawler.json;
 
 import com.gewebcrawler.json.Internet;
 import com.google.gson.Gson;
