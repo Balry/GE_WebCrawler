@@ -10,8 +10,6 @@ public class WebCrawler {
             GSONFileReader gsonFileReader = new GSONFileReader();
             internet = gsonFileReader.deseraliazeInternetJSON();
 
-            System.out.println(internet.toString());
-
         }catch (Exception e){ e.getStackTrace(); }
     }
 }
