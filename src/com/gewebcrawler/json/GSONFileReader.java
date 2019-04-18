@@ -9,8 +9,8 @@ import java.nio.file.Paths;
 public class GSONFileReader {
     private static String json;
 
-    public GSONFileReader() throws Exception {
-        json = readFileAsString("reqDoc\\internet_1.json");
+    public GSONFileReader(String path) throws Exception {
+        json = readFileAsString(path);
     }
 
     public static String readFileAsString(String fileName)throws Exception {
