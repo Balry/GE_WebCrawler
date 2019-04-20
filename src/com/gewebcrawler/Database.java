@@ -23,40 +23,20 @@ public class Database {
         return databaseInstance;
     }
 
-    public void setDatabaseInstance(Database databaseInstance) {
-        Database.databaseInstance = databaseInstance;
-    }
-
     public List<String> getUnvisitedLinks() {
         return unvisitedLinks;
-    }
-
-    public void setUnvisitedLinks(List<String> unvisitedLinks) {
-        this.unvisitedLinks = unvisitedLinks;
     }
 
     public List<String> getSuccess() {
         return success;
     }
 
-    public void setSuccess(List<String> success) {
-        this.success = success;
-    }
-
     public List<String> getSkipped() {
         return skipped;
     }
 
-    public void setSkipped(List<String> skipped) {
-        this.skipped = skipped;
-    }
-
     public List<String> getError() {
         return error;
-    }
-
-    public void setError(List<String> error) {
-        this.error = error;
     }
 
 }
