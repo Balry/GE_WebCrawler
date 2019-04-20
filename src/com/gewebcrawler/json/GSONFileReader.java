@@ -12,11 +12,11 @@ public class GSONFileReader {
         json = readFileAsString(path);
     }
 
-    public static String readFileAsString(String fileName)throws Exception {
+    private static String readFileAsString(String fileName)throws Exception {
         return new String(Files.readAllBytes(Paths.get(fileName)));
     }
 
-    public Internet deseraliazeInternetJSON() {
+    public Internet deserializeInternetJSON() {
         return new Gson().fromJson(json, Internet.class);
     }
 

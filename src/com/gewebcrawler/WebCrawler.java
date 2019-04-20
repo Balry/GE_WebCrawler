@@ -11,14 +11,14 @@ import java.util.List;
 //TODO only spans one thread... maybe if json was larger it would span more?
 public class WebCrawler extends Thread {
     private Internet internet;
-    private static List<String> internetAddresses = new ArrayList<>();  //Comprehensive list of addresses in the Internet
+    private static final List<String> internetAddresses = new ArrayList<>();  //Comprehensive list of addresses in the Internet
     private Database database = Database.getInstance();
 
     public WebCrawler() {
 
         try {
             GSONFileReader gsonFileReader = new GSONFileReader("reqDoc\\internet_1.json");  //Read JSON File
-            internet = gsonFileReader.deseraliazeInternetJSON();                                  //Deseraliaze JSON file
+            internet = gsonFileReader.deserializeInternetJSON();                                  //Deserialize JSON file
         }catch (Exception e) { e.getStackTrace(); }
 
         //Retrieve all addresses from the internet
@@ -26,12 +26,13 @@ public class WebCrawler extends Thread {
             internetAddresses.add(page.getAddress());
         }
 
-        database.getUnvisitedLinks().add(internetAddresses.get(internetAddresses.size()-1));      //Select starting page
+        //database.getUnvisitedLinks().add(internetAddresses.get(internetAddresses.size()-1));      //Select starting page
+        database.getUnvisitedLinks().add(internetAddresses.get(0));                                 //Select starting page
+
     }
 
     @Override
     public void run() {
-
         //TODO optimize if statements
         //Visit new links in order
         while (database.getUnvisitedLinks().size() > 0) {

@@ -10,10 +10,6 @@ public class Internet {
         return pages;
     }
 
-    public void setPages (Page[] pages) {
-        this.pages = pages;
-    }
-
     @Override
     public String toString() {
         return "Internet [pages = " + Arrays.toString(pages) + "]";

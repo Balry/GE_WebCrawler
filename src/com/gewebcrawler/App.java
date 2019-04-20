@@ -1,6 +1,6 @@
 package com.gewebcrawler;
 
-public class App {
+class App {
 
     public static void main(String[] args){
         try{
@@ -12,9 +12,9 @@ public class App {
 
 
                 /*System.out.println("Number of Threads: " + Thread.activeCount());
-                Thread[] listofThreads = new Thread[Thread.activeCount()];
-                Thread.enumerate(listofThreads);
-                for(Thread i:listofThreads){
+                Thread[] listOfThreads = new Thread[Thread.activeCount()];
+                Thread.enumerate(listOfThreads);
+                for(Thread i:listOfThreads){
                     System.out.println(i.getName());
                 }*/
 
