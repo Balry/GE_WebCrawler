@@ -1,6 +1,5 @@
 package com.gewebcrawler.json;
 
-import com.gewebcrawler.json.Internet;
 import com.google.gson.Gson;
 
 import java.nio.file.Files;

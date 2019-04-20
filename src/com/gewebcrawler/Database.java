@@ -1,9 +1,5 @@
 package com.gewebcrawler;
 
-import com.gewebcrawler.json.Internet;
-import com.gewebcrawler.json.Page;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

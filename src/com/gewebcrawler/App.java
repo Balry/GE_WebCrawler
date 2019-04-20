@@ -10,8 +10,8 @@ public class App {
             while (Database.getInstance().getUnvisitedLinks().size() > 0) {
                 webCrawler.start();
 
-                /*
-                System.out.println("Number of Threads: " + Thread.activeCount());
+
+                /*System.out.println("Number of Threads: " + Thread.activeCount());
                 Thread[] listofThreads = new Thread[Thread.activeCount()];
                 Thread.enumerate(listofThreads);
                 for(Thread i:listofThreads){
