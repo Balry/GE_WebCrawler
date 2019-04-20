@@ -1,19 +1,16 @@
 package com.gewebcrawler;
 
-import com.gewebcrawler.json.GSONFileReader;
 import com.gewebcrawler.json.Internet;
-import com.gewebcrawler.json.Page;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-//TODO only spans one thread... maybe if json was larger it would span more?
+//TODO fix nullpointers/IndexOutOfBoundsException conflicts (not running smoothly every time)
 public class WebCrawler extends Thread {
-    private Internet internet;
-    private static List<String> internetAddresses;  //Comprehensive list of addresses in the Internet
+    private final Internet internet;
+    private final List<String> internetAddresses;  //Comprehensive list of addresses in the Internet
     private Database database = Database.getInstance();
-    private int index;
+    private final int index;
 
     public WebCrawler(Internet internet, List<String> internetAddresses, int index ) {
         this.internet = internet;
